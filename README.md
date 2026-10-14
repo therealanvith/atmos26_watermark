@@ -78,6 +78,8 @@ python watermark_wizard.py input_images/black_watermark output_images --logo ass
 - `cleanup.bat`: deletes contents of both input folders and remakes them
 - `first_time_setup.bat`: `mkdir` + `pip install`
 
+> **Note:** `.bat` files only work on Windows. On Linux/Mac, run the Python script directly (`python watermark_wizard.py ...`).
+
 ## Dependencies
 
 - Python 3.9+
